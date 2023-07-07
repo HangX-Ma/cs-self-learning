@@ -62,6 +62,7 @@ theme:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - footnotes
 
 plugins:
   - i18n:
@@ -175,9 +176,10 @@ nav:
       - "UCB CS169: software engineering": "软件工程/CS169.md"
   - 体系结构:
       - "Coursera: Nand2Tetris": "体系结构/N2T.md"
-      - "Digital Design and Computer Architecture": "体系结构/DDCA.md"
       - "UCB CS61C: Great Ideas in Computer Architecture": "体系结构/CS61C.md"
       - "CMU 15-213: CSAPP": "体系结构/CSAPP.md"
+      - "ETHz: Digital Design and Computer Architecture": "体系结构/DDCA.md"
+      - "ETHz: Computer Architecture": "体系结构/CA.md"
   - 操作系统:
       - "MIT 6.S081: Operating System Engineering": "操作系统/MIT6.S081.md"
       - "UCB CS162: Operating System": "操作系统/CS162.md"
@@ -228,6 +230,7 @@ nav:
       - "CMU 10-414/714: Deep Learning Systems": "机器学习系统/CMU10-414.md"
       - "Machine Learning Compilation": "机器学习系统/MLC.md"
   - 深度学习:
+      - "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision": "深度学习/EECS498-007.md"
       - "Coursera: Deep Learning": "深度学习/CS230.md"
       - "国立台湾大学：李宏毅机器学习": "深度学习/LHY.md"
       - "Stanford CS231n: CNN for Visual Recognition": "深度学习/CS231.md"
